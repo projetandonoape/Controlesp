@@ -1,3 +1,13 @@
+//Projetando no Apê
+//Agosto de 2020
+//
+//Este programa foi desenvolvido para:
+//1. Se conectar à internet. Recebe horário NTP (Network Time Protocol) e atualiza o RTC (Real Time Clock) interno do ESP;
+//2. Controlar o brilho dos leds da placa por pulsos PWM;
+//3. Utilizar interrupções para tratar o sinal de acionamento dos botões;
+//4. Envia comandos ao MCP23017 utilizando o protocolo de comunicação I2C para controlar os pinos virtuais de expansão
+//
+
 #include <WiFi.h>
 #include <Wire.h>
 #include <sys/time.h>
