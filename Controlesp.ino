@@ -3,8 +3,8 @@
 #include <sys/time.h>
 #include "tabela.h"
 
-const char* ssid       = "nome_da_rede_wifi";
-const char* password   = "senha_wifi";
+const char* ssid       = "Nome da rede wifi";
+const char* password   = "Senha da rede wifi";
 
 TwoWire I2Cone = TwoWire(0);
 TwoWire I2Ctwo = TwoWire(1);
